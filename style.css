@@ -1,0 +1,205 @@
+body {
+    background-color: #F5F5F5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 156px;
+    box-shadow: 0px 4px 8.7px 0px #00000040;
+    border: 1px solid #BCAAAA;
+    padding: 0px 106px 0 106px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    margin: 51px 0 0 0 ;
+}
+
+.navigation > ul {
+    display: flex;
+    gap: 64px;
+    align-items: center;
+    padding: 50px 0 0 0;
+}
+
+.navigation > ul > div > li {
+    list-style: none;
+}
+
+.navigation > ul > div > li >a {
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    color: #BCAAAA;
+    transition: all 0.5s;
+}
+
+.navigation > ul > div > li > a:hover {
+    color: #EF400F;
+    transition: all 0.5s;
+}
+
+.Icons {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    bottom: -42px;
+    left: 0px;
+}
+
+.other {
+    display: flex;
+    align-items: center;
+    padding: 50px 0 0 0;
+    gap: 51px;
+}
+
+.other > button {
+    width: 219px;
+    height: 63px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 3px solid #EF400F;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    color: #EF400F;    
+    cursor: pointer;
+}
+
+.function {
+    display: flex;
+    justify-content: space-between;
+    margin: 117px 0 0 0;
+    padding: 0 106px;
+}
+
+.magazin {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.magazin > h2 {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48.41px;
+    color: #0D0C5C;
+}
+
+.Tarix {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.Tarix > h2 {
+    color: #EF400F;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.73px;    
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 290px;
+    height: 290px;
+    border-radius: 30px;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0px 4px 13.3px 0px #00000040;
+}
+
+.wrapper_cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 121px 120px 39px 120px;
+}
+
+.Card > h3 {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.Price {
+    display: flex;
+    align-items: center;
+    padding: 17px 25px ; 
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.Price > p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    color: #000000AB;
+}
+
+.Card > p {
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 15.73px;
+    color: #000000BF;    
+}
+
+footer {
+    height: 65px;
+    box-shadow: 0px 4px 17.9px 0px #00000040;
+}
+
+.footer_confidentiality {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_confidentiality > p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.36px;
+    padding: 23px 0 23px 101px; 
+    color: black;
+}
+
+.footer_confidentiality > u {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.36px;
+    padding: 23px 94px 23px 0;    
+}
